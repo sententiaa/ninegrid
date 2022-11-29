@@ -164,3 +164,103 @@
     width: 55px;
     height: 55px;
 }
+
+#searchbar {
+margin-left: 500px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    width: 400px;
+    height: 75px;
+    background-color: rgba(50, 50, 50, 0.3);
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+#searchbox {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 375px;
+    height: 50px;
+    background-color: rgba(50, 50, 50, 0.3);
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+#viewsticky {
+    margin-top: 5px;
+    margin-left: 500px;
+    margin-right: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 400px;
+    height: 75px;
+    background-color: rgba(50, 50, 50, 0.3);
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+.viewlabel {
+    margin-left: -50px;
+}
+
+.viewimage1 {
+    width: 50px;
+    height: 50px;
+    border-width: 0px;
+    transition: width 0.25s, height 0.25s, border-width 0.25s;
+    transition-timing-function: linear
+}
+
+.viewimage1:hover {
+    width: 60px;
+    height: 60px;
+    border: groove;
+    border-color: white;
+    border-width: 10px;
+}
+
+.viewimage2 {
+    width: 50px;
+    height: 50px;
+    border-width: 0px;
+    transition: width 0.25s, height 0.25s, border-width 0.25s;
+    transition-timing-function: linear
+}
+
+.viewimage2:hover {
+    width: 60px;
+    height: 60px;
+    border: groove;
+    border-color: white;
+    border-width: 10px;
+}
+
+.viewimage3 {
+    width: 50px;
+    height: 50px;
+    border-width: 0px;
+    transition: width 0.25s, height 0.25s, border-width 0.25s;
+    transition-timing-function: linear
+}
+
+.viewimage3:hover {
+    width: 60px;
+    height: 60px;
+    border: groove;
+    border-color: white;
+    border-width: 10px;
+}
