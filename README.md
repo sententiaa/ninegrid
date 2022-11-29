@@ -16,6 +16,6 @@ https://sententiaa.github.io/ninegrid/.
 
 
 
-- [] Create Shape Customizing Buttons
+- [x] Create Shape Customizing Buttons
 - [] Create Search Bar Button
 - [] Create Linear Loading Bar
