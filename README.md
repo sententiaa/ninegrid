@@ -2,11 +2,15 @@
 
 A Detailed Customizable CSS Grid With Responsive Buttons Project, "9Grid".
 
-~~Website Location~~
+###### Website Testing?
 
 Use The Right Hand Side Bar,
 or
 [Nine Grid](https://sententiaa.github.io/ninegrid/)
+
+
+
+
 
 
 **Task List**
