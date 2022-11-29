@@ -1,0 +1,55 @@
+.backgroundgray {
+    background-image: radial-gradient(#212121 5%, transparent 2.5%);
+    background-color: black;
+    background-position: 0 0, 50px 50px;
+    background-size: 75px 75px;
+}
+
+.backgroundred {
+    background-image: radial-gradient(#d32539 5%, transparent 2.5%);
+    background-color: black;
+    background-position: 0 0, 50px 50px;
+    background-size: 75px 75px;
+}
+
+.backgroundorange {
+    background-image: radial-gradient(#ef880a 5%, transparent 2.5%);
+    background-color: black;
+    background-position: 0 0, 50px 50px;
+    background-size: 75px 75px;
+}
+
+.backgroundyellow {
+    background-image: radial-gradient(#f6d837 5%, transparent 2.5%);
+    background-color: black;
+    background-position: 0 0, 50px 50px;
+    background-size: 75px 75px;
+}
+
+.backgroundgreen {
+    background-image: radial-gradient(#49ad50 5%, transparent 2.5%);
+    background-color: black;
+    background-position: 0 0, 50px 50px;
+    background-size: 75px 75px;
+}
+
+.backgroundcyan {
+    background-image: radial-gradient(#278add 5%, transparent 2.5%);
+    background-color: black;
+    background-position: 0 0, 50px 50px;
+    background-size: 75px 75px;
+}
+
+.backgroundblue {
+    background-image: radial-gradient(#3d43a5 5%, transparent 2.5%);
+    background-color: black;
+    background-position: 0 0, 50px 50px;
+    background-size: 75px 75px;
+}
+
+.backgroundpurple {
+    background-image: radial-gradient(#9311ad 5%, transparent 2.5%);
+    background-color: black;
+    background-position: 0 0, 50px 50px;
+    background-size: 75px 75px;
+}

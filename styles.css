@@ -1,0 +1,166 @@
+.colorpicker {
+    background-color: rgba(50, 50, 50, 0.3);
+    margin-top: 12.5px;
+    height: 75px;
+    width: 510px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#graycircle {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    border-width: 0px;
+    background-color: #212121;
+    z-index: 5;
+    transition: border-width 0.25s, border-color 0.25s, width 0.25s, height 0.25s;
+    transition-timing-function: ease-in;
+}
+
+#graycircle:hover {
+    border-width: 5px;
+    border-color: white;
+    width: 55px;
+    height: 55px;
+}
+
+#redcircle {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    border-width: 0px;
+    background-color: #d32539;
+    z-index: 5;
+    transition: border-width 0.25s, border-color 0.25s, width 0.25s, height 0.25s;
+    transition-timing-function: ease-in;
+}
+
+#redcircle:hover {
+    border-width: 5px;
+    border-color: white;
+    width: 55px;
+    height: 55px;
+}
+
+#orangecircle {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    border-width: 0px;
+    background-color: #ef880a;
+    z-index: 5;
+    transition: border-width 0.25s, border-color 0.25s, width 0.25s, height 0.25s;
+    transition-timing-function: ease-in;
+}
+
+#orangecircle:hover {
+    border-width: 5px;
+    border-color: white;
+    width: 55px;
+    height: 55px;
+}
+
+#yellowcircle {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    border-width: 0px;
+    background-color: #f6d837;
+    z-index: 5;
+    transition: border-width 0.25s, border-color 0.25s, width 0.25s, height 0.25s;
+    transition-timing-function: ease-in;
+}
+
+#yellowcircle:hover {
+    border-width: 5px;
+    border-color: white;
+    width: 55px;
+    height: 55px;
+}
+
+#greencircle {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    border-width: 0px;
+    background-color: #49ad50;
+    z-index: 5;
+    transition: border-width 0.25s, border-color 0.25s, width 0.25s, height 0.25s;
+    transition-timing-function: ease-in;
+}
+
+#greencircle:hover {
+    border-width: 5px;
+    border-color: white;
+    width: 55px;
+    height: 55px;
+}
+
+#cyancircle {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    border-width: 0px;
+    background-color: #278add;
+    z-index: 5;
+    transition: border-width 0.25s, border-color 0.25s, width 0.25s, height 0.25s;
+    transition-timing-function: ease-in;
+}
+
+#cyancircle:hover {
+    border-width: 5px;
+    border-color: white;
+    width: 55px;
+    height: 55px;
+}
+
+#bluecircle {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    border-width: 0px;
+    background-color: #3d43a5;
+    z-index: 5;
+    transition: border-width 0.25s, border-color 0.25s, width 0.25s, height 0.25s;
+    transition-timing-function: ease-in;
+}
+
+#bluecircle:hover {
+    border-width: 5px;
+    border-color: white;
+    width: 55px;
+    height: 55px;
+}
+
+#purplecircle {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    border-width: 0px;
+    background-color: #9311ad;
+    z-index: 5;
+    transition: border-width 0.25s, border-color 0.25s, width 0.25s, height 0.25s;
+    transition-timing-function: ease-in;
+}
+
+#purplecircle:hover {
+    border-width: 5px;
+    border-color: white;
+    width: 55px;
+    height: 55px;
+}
