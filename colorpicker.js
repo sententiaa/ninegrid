@@ -1,97 +1,91 @@
-document.querySelector('#containerbackground').classList.add('backgroundgray')
+const containerbackground = document.querySelector(`#containerbackground`)
+const progressbar = document.querySelector(`#progressbarcolor`)
+/* Page Starts Out White Originally With No Dotted Grid
+This Line Of Code Adds A Default Black Background With A Gray Dotted Grid Image Ontop Of it. Incase that you don't want any of the other color options. */
+containerbackground.classList.add('backgroundgray')
+progressbar.classList.add('progressgray')
+
+
+/* FUNCTIONS */
+
+/* Function To Get Rid Of Previous Color Picker Options (Classlist.Remove Usage) */
+function containerbackgroundclear () {
+    containerbackground.classList.remove('backgroundgray')
+    containerbackground.classList.remove('backgroundred')
+    containerbackground.classList.remove('backgroundorange')
+    containerbackground.classList.remove('backgroundyellow')
+    containerbackground.classList.remove('backgroundgreen')
+    containerbackground.classList.remove('backgroundcyan')
+    containerbackground.classList.remove('backgroundblue')
+    containerbackground.classList.remove('backgroundpurple')
+}
+/* Function To Get Rid Of Previous Color Picker Options (Classlist.Remove Usage) */
+function progressbarcontainerclear () { 
+    progressbar.classList.remove('progressgray')
+    progressbar.classList.remove('progressred')
+    progressbar.classList.remove('progressorange')
+    progressbar.classList.remove('progressyellow')
+    progressbar.classList.remove('progressgreen')
+    progressbar.classList.remove('progresscyan')
+    progressbar.classList.remove('progressblue')
+    progressbar.classList.remove('progresspurple')
+}
+
+/* A Bunch Of Mouse Click Checking Functions That Add Check When You Click Then
+Use A Bunch Of Previously Made Function(s) And Put Them To Use By Using The Function(s) To Clear The Background Or Any Element That Has A Customizable Option And Then Adds The New Color via A ClassList With A Bunch Of Color Classes. */
 
 document.querySelector('#graycircle').addEventListener('click', () => {
-    document.querySelector('#containerbackground').classList.remove('backgroundgray')
-    document.querySelector('#containerbackground').classList.remove('backgroundred')
-    document.querySelector('#containerbackground').classList.remove('backgroundorange')
-    document.querySelector('#containerbackground').classList.remove('backgroundyellow')
-    document.querySelector('#containerbackground').classList.remove('backgroundgreen')
-    document.querySelector('#containerbackground').classList.remove('backgroundcyan')
-    document.querySelector('#containerbackground').classList.remove('backgroundblue')
-    document.querySelector('#containerbackground').classList.remove('backgroundpurple')
-    document.querySelector('#containerbackground').classList.add('backgroundgray')
+    containerbackgroundclear()
+    progressbarcontainerclear()
+    containerbackground.classList.add('backgroundgray')
+    progressbar.classList.add('progressgray')
+
 })
 
 document.querySelector('#redcircle').addEventListener('click', () => {
-    document.querySelector('#containerbackground').classList.remove('backgroundgray')
-    document.querySelector('#containerbackground').classList.remove('backgroundred')
-    document.querySelector('#containerbackground').classList.remove('backgroundorange')
-    document.querySelector('#containerbackground').classList.remove('backgroundyellow')
-    document.querySelector('#containerbackground').classList.remove('backgroundgreen')
-    document.querySelector('#containerbackground').classList.remove('backgroundcyan')
-    document.querySelector('#containerbackground').classList.remove('backgroundblue')
-    document.querySelector('#containerbackground').classList.remove('backgroundpurple')
-    document.querySelector('#containerbackground').classList.add('backgroundred')
+    containerbackgroundclear()
+    progressbarcontainerclear()
+    containerbackground.classList.add('backgroundred')
+    progressbar.classList.add('progressred')
 })
 
 document.querySelector('#orangecircle').addEventListener('click', () => {
-    document.querySelector('#containerbackground').classList.remove('backgroundgray')
-    document.querySelector('#containerbackground').classList.remove('backgroundred')
-    document.querySelector('#containerbackground').classList.remove('backgroundorange')
-    document.querySelector('#containerbackground').classList.remove('backgroundyellow')
-    document.querySelector('#containerbackground').classList.remove('backgroundgreen')
-    document.querySelector('#containerbackground').classList.remove('backgroundcyan')
-    document.querySelector('#containerbackground').classList.remove('backgroundblue')
-    document.querySelector('#containerbackground').classList.remove('backgroundpurple')
-    document.querySelector('#containerbackground').classList.add('backgroundorange')
+    containerbackgroundclear()
+    progressbarcontainerclear()
+    containerbackground.classList.add('backgroundorange')
+    progressbar.classList.add('progressorange')
 })
 
 document.querySelector('#yellowcircle').addEventListener('click', () => {
-    document.querySelector('#containerbackground').classList.remove('backgroundgray')
-    document.querySelector('#containerbackground').classList.remove('backgroundred')
-    document.querySelector('#containerbackground').classList.remove('backgroundorange')
-    document.querySelector('#containerbackground').classList.remove('backgroundyellow')
-    document.querySelector('#containerbackground').classList.remove('backgroundgreen')
-    document.querySelector('#containerbackground').classList.remove('backgroundcyan')
-    document.querySelector('#containerbackground').classList.remove('backgroundblue')
-    document.querySelector('#containerbackground').classList.remove('backgroundpurple')
-    document.querySelector('#containerbackground').classList.add('backgroundyellow')
+    containerbackgroundclear()
+    progressbarcontainerclear()
+    containerbackground.classList.add('backgroundyellow')
+    progressbar.classList.add('progressyellow')
 })
 
 document.querySelector('#greencircle').addEventListener('click', () => {
-    document.querySelector('#containerbackground').classList.remove('backgroundgray')
-    document.querySelector('#containerbackground').classList.remove('backgroundred')
-    document.querySelector('#containerbackground').classList.remove('backgroundorange')
-    document.querySelector('#containerbackground').classList.remove('backgroundyellow')
-    document.querySelector('#containerbackground').classList.remove('backgroundgreen')
-    document.querySelector('#containerbackground').classList.remove('backgroundcyan')
-    document.querySelector('#containerbackground').classList.remove('backgroundblue')
-    document.querySelector('#containerbackground').classList.remove('backgroundpurple')
-    document.querySelector('#containerbackground').classList.add('backgroundgreen')
+    containerbackgroundclear()
+    containerbackground.classList.add('backgroundgreen')
+    progressbar.classList.add('progressgreen')
 })
 
 document.querySelector('#cyancircle').addEventListener('click', () => {
-    document.querySelector('#containerbackground').classList.remove('backgroundgray')
-    document.querySelector('#containerbackground').classList.remove('backgroundred')
-    document.querySelector('#containerbackground').classList.remove('backgroundorange')
-    document.querySelector('#containerbackground').classList.remove('backgroundyellow')
-    document.querySelector('#containerbackground').classList.remove('backgroundgreen')
-    document.querySelector('#containerbackground').classList.remove('backgroundcyan')
-    document.querySelector('#containerbackground').classList.remove('backgroundblue')
-    document.querySelector('#containerbackground').classList.remove('backgroundpurple')
-    document.querySelector('#containerbackground').classList.add('backgroundcyan')
+    containerbackgroundclear()
+    progressbarcontainerclear()
+    containerbackground.classList.add('backgroundcyan')
+    progressbar.classList.add('progresscyan')
 })
 
 document.querySelector('#bluecircle').addEventListener('click', () => {
-    document.querySelector('#containerbackground').classList.remove('backgroundgray')
-    document.querySelector('#containerbackground').classList.remove('backgroundred')
-    document.querySelector('#containerbackground').classList.remove('backgroundorange')
-    document.querySelector('#containerbackground').classList.remove('backgroundyellow')
-    document.querySelector('#containerbackground').classList.remove('backgroundgreen')
-    document.querySelector('#containerbackground').classList.remove('backgroundcyan')
-    document.querySelector('#containerbackground').classList.remove('backgroundblue')
-    document.querySelector('#containerbackground').classList.remove('backgroundpurple')
-    document.querySelector('#containerbackground').classList.add('backgroundblue')
+    containerbackgroundclear()
+    progressbarcontainerclear()
+    containerbackground.classList.add('backgroundblue')
+    progressbar.classList.add('progressblue')
 })
 
 document.querySelector('#purplecircle').addEventListener('click', () => {
-    document.querySelector('#containerbackground').classList.remove('backgroundgray')
-    document.querySelector('#containerbackground').classList.remove('backgroundred')
-    document.querySelector('#containerbackground').classList.remove('backgroundorange')
-    document.querySelector('#containerbackground').classList.remove('backgroundyellow')
-    document.querySelector('#containerbackground').classList.remove('backgroundgreen')
-    document.querySelector('#containerbackground').classList.remove('backgroundcyan')
-    document.querySelector('#containerbackground').classList.remove('backgroundblue')
-    document.querySelector('#containerbackground').classList.remove('backgroundpurple')
-    document.querySelector('#containerbackground').classList.add('backgroundpurple')
+    containerbackgroundclear()
+    progressbarcontainerclear()
+    containerbackground.classList.add('backgroundpurple')
+    progressbar.classList.add('progresspurple')
 })

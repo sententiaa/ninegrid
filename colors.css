@@ -53,3 +53,99 @@
     background-position: 0 0, 50px 50px;
     background-size: 75px 75px;
 }
+
+.progressgray {
+    margin-left: 0px;
+    justify-content: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #212121;
+}
+
+.progressred {
+    margin-left: 0px;
+    justify-content: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #d32539;
+}
+
+.progressorange {
+    margin-left: 0px;
+    justify-content: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ef880a;
+}
+
+.progressyellow {
+    margin-left: 0px;
+    justify-content: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #f6d837;
+}
+
+.progressgreen {
+    margin-left: 0px;
+    justify-content: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #49ad50;
+}
+
+.progresscyan {
+    margin-left: 0px;
+    justify-content: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #278add;
+}
+
+.progressblue {
+    margin-left: 0px;
+    justify-content: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3d43a5;
+}
+
+.progresspurple {
+    margin-left: 0px;
+    justify-content: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #9311ad;
+}
