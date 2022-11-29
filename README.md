@@ -9,10 +9,6 @@ or
 [Nine Grid](https://sententiaa.github.io/ninegrid/)
 
 
-
-
-
-
 **Task List**
 
 - [x] Create A Gridded CSS Background
