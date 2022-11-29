@@ -21,4 +21,4 @@ or
 - [x] Create Linear Loading Bar
 
 
-<sub>2/8 Tasks Completed. 6 More To Complete.</sub>
+<sub>5/8 Tasks Completed. 3 More To Complete.</sub>
