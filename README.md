@@ -19,4 +19,6 @@ https://sententiaa.github.io/ninegrid/.
 - [ ] Create Shape Customizing Buttons
 - [ ] Create Search Bar Button
 - [ ] Create Linear Loading Bar
+
+
 <sub>2/8 Tasks Completed.</sub>
