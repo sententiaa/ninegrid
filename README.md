@@ -3,9 +3,10 @@
 A Detailed Customizable CSS Grid With Responsive Buttons Project, "9Grid".
 
 > Test
+
+
 Use The Right Hand Side Bar,
 or
-https://sententiaa.github.io/ninegrid/.
 [Nine Grid](https://sententiaa.github.io/ninegrid/)
 
 
@@ -21,4 +22,4 @@ https://sententiaa.github.io/ninegrid/.
 - [ ] Create Linear Loading Bar
 
 
-<sub>2/8 Tasks Completed.</sub>
+<sub>2/8 Tasks Completed. 6 More To Complete.</sub>
